@@ -1,0 +1,95 @@
+#app_bar{
+    background-color: #C95500;
+    position: static;
+}
+.cart_item_main{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    gap: 1vw;
+}
+.cart_item_sub{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: space-around;
+}
+.cart_image{
+    width: 10vw;
+}
+.cart_item_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.cart_heading{
+    text-align: center;
+}
+.total_div{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    float: right;
+    margin-right: 2vw;
+}
+#checkout_btn{
+    background-color: #C95500;
+    color: white;
+    font-weight: bold;
+}
+.empty_cart_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#empty{
+    font-size: 1.5vw;
+}
+#loginText{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.empty-cart{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #C95500;
+    text-align: center;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: olive;
+    color: white;
+    cursor: pointer;
+    padding: 0.7vw;
+    border-radius: 5px;
+}
+#myBtn1{
+    display: none;
+    position: fixed;
+    bottom: 20vh;
+    right: 30px;
+    z-index: 99;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    padding: 0.7vw;
+    border-radius: 5px;
+  }
+  #logout-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
